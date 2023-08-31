@@ -14,7 +14,7 @@ namespace DataAccess
         private readonly string connectionString;
         public ConeccionSql() 
         {
-            connectionString = "Data Source=DESKTOP-U7V8DA0;Initial Catalog=X;Integrated Security=True";
+            connectionString = "Data Source=DESKTOP-VBHK6Q1;Initial Catalog=dsa;Integrated Security=True";
         } 
 
         protected SqlConnection GetSqlConnection()
